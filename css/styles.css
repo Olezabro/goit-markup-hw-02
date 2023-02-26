@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
 }
 
 .list {
@@ -16,12 +17,28 @@ body {
     text-decoration: none;
  }
 
- .title{
+ .title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+ }
+ 
+ .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-color); 
+ }
+
+ .paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);  
  }
 
  .visually-hidden {
@@ -45,7 +62,22 @@ body {
 .header-nav {
 }
 .header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+
 }
+
+.header-logo span {
+    color: #4D5AE5;
+}
+
 .header-item {
 }
 .header-link {
@@ -108,19 +140,10 @@ body {
 
 .skills-item {
 }
-.skills-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--second-color);    
+.skills-item-title { 
 }
 .skills-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--paragraph-color);    
+ 
 }
 
 
@@ -170,7 +193,7 @@ body {
 .footer {
     background: #2E2F42;
 }
-.footer-link {
+.footer-logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -179,11 +202,38 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-}
-.footer-link span {
     color: #F4F4FD;
+}
+.footer-logo span {
+    color: #4D5AE5;
 }
 
 .footer-text {
+}
+
+/* Portfolio Page Styles */
+
+/* Buttons */
+.buttons {
+}
+.buttons-list {
+}
+.buttons-item {
+}
+.buttons-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.buttons-btn:hover,
+.buttons-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
