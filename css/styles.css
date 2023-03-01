@@ -220,13 +220,13 @@ body {
 
 /* Buttons */
 .buttons {
-    font-family: inherit;
 }
 .buttons-list {
 }
 .buttons-item {
 }
 .buttons-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
