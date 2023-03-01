@@ -6,7 +6,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    font-size: 16px;
+    color: var(--second-color);
+    background: #FFFFFF;
 }
 
 .list {
@@ -20,7 +22,6 @@ body {
  .title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
  }
@@ -34,7 +35,6 @@ body {
  }
 
  .paragraph {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -66,8 +66,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
@@ -88,6 +86,11 @@ body {
     color: var(--second-color);
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
 .header-adress {
 }
 .header-list {
@@ -95,12 +98,16 @@ body {
 
 .header-contacts {
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--paragraph-color);   
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+    color: #404BBF;
 }
 
 
@@ -112,7 +119,6 @@ body {
 .main-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-color);    
 }
@@ -121,14 +127,16 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
     background: #4D5AE5;
 }
-
+.main-btn:hover,
+.main-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
 
 /* ----------- skills ----------- */
 
@@ -170,20 +178,18 @@ body {
 .team-list {
 }
 .team-item {
+    color: #FFFFFF;
 }
 .team-item-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--second-color);    
 }
 .team-item-work {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    text-align: center;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraph-color);    
 }
@@ -198,8 +204,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
@@ -209,12 +213,14 @@ body {
 }
 
 .footer-text {
+    color: #E7E9FC;
 }
 
 /* Portfolio Page Styles */
 
 /* Buttons */
 .buttons {
+    font-family: inherit;
 }
 .buttons-list {
 }
@@ -224,11 +230,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    background: #E7E9FC;
     cursor: pointer;
 }
 
