@@ -55,7 +55,9 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-
+  .current:visited {
+    color: #4D5AE5;
+  }
   /* ----------- header ----------- */
 
   .header {
