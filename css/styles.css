@@ -24,6 +24,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
  }
  
  .subtitle {
@@ -91,6 +92,10 @@ body {
     color: #404BBF;
 }
 
+.header-link:active {
+    color: #4D5AE5;
+}
+
 .header-adress {
 }
 .header-list {
@@ -120,6 +125,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--main-color);    
 }
 .main-btn {
@@ -185,12 +191,14 @@ body {
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--second-color);    
 }
 .team-item-work {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--paragraph-color);    
 }
 
@@ -213,19 +221,26 @@ body {
 }
 
 .footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #E7E9FC;
 }
 
 /* Portfolio Page Styles */
 
-/* Buttons */
-.buttons {
+.Portfolio {
 }
-.buttons-list {
+
+.Portfolio-list {
 }
-.buttons-item {
+
+.portfolio-link:hover,
+.portfolio-link:focus {
 }
-.buttons-btn {
+
+.portfolio-item {
+}
+.portfolio-btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -236,8 +251,10 @@ body {
     cursor: pointer;
 }
 
-.buttons-btn:hover,
-.buttons-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
+
+
